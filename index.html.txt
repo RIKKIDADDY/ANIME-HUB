@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anime & Movies Hub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Anime & Movies Hub</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Anime</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">Drama Series</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="content">
+      <h2>Latest Uploads</h2>
+      <div class="card">
+        <img src="anime-thumbnail.jpg" alt="Anime Thumbnail">
+        <h3>Anime Title</h3>
+        <p>Short description about the anime.</p>
+      </div>
+      <!-- Add more cards here -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Anime & Movies Hub. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
